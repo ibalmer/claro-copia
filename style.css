@@ -1,9 +1,9 @@
-.flag{
+.flag, .hidden-languaje{
     width: 20px;
     height: 14px;
 }
 
-.nav{
+.nav-1, .hidden-header-nav{
     width: 100%;
     height: 40px;
 }
@@ -41,19 +41,21 @@
 }
 .searcher{
     padding-block: 10.56rem;
-    width: 618px;
+    width: 100%;
+    max-width: 618px;
     height: 400px;
 }
 
 .searcher-container{
+    max-width: 100%;
     width: 618px;
     height: 400px;
 }
 
 .searcher-case{
-    width: 618px;
-    height: 67px;
     width: 100%;
+    max-width: 618px;
+    height: 67px;
     padding-inline-start: 4.188rem;
 }
 .searcher-case::placeholder{
@@ -99,7 +101,8 @@
 
 .port-submit{
     border: none;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: 40px;
 }
 .info{
@@ -139,4 +142,34 @@
 .info-h3{
     width: 38vw;
     
+}
+
+.hidden-nav-logo{
+    width: 67px;
+    height: 25px;
+}
+.hidden-menu{
+    width: 24px;
+    height: 24px;
+}
+.hidden-nav{
+    height: 56px;
+    padding-block: 1rem;
+    padding-inline: 1.2rem !important;
+}
+
+.hidden-header-nav {
+    gap: .5rem;
+}
+
+.hidden-languaje{
+    
+    text-align: initial;
+}
+.hidden-languaje img{
+    width: 20px;
+    height: 14px;
+}
+.nav-claro{
+    max-height: 67px;
 }

@@ -308,3 +308,84 @@ h1{ font-size: var(--size-7); }
 /*---- Hover ----*/
 
 /*---- Filter (blur, inverse)----*/
+
+/*---- Media Queris ----*/
+
+@media (max-width:1180px) {
+    .hidden-header-nav{
+        display: flex;
+    }
+    .nav-1, .nav-list-2, .nav-2-div{
+        display: none;
+    }
+    .nav-2{
+        padding-inline: 0;
+    }
+    .hidden-nav{
+        display: flex;
+    }
+
+}
+
+@media (max-width:768px){
+    .section-service{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-block: 2.5rem;
+        margin-inline: .625p;
+        padding-block: 1rem;
+        height: fit-content;
+    }
+    .service-button{
+        box-shadow: none !important;
+        flex-direction: column;
+        padding-inline: 0;
+    }
+    .service-text{
+        font-size: var(--size-1);
+        font-weight: 700;
+        font-family: "Amx", sans-serif;
+        padding-inline: 0;
+        max-width: 112px;
+        text-align: center;
+        margin-top: .75rem;
+        margin-inline-start: 0 !important;
+    }
+
+/*     .info{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-div{
+        margin-top: var(--gap-3);
+    } */
+}
+
+@media (max-width:1024px){
+    .port{
+        padding: 1.25rem;
+        justify-content: center;
+        flex-direction: column;
+        width: 60vw;
+    }
+    .port-form{
+        margin-inline: .5rem;
+        width: 100%;
+        max-width: none !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .port-text-1{
+        font-size: var(--size-6);
+    }
+    .port-text-2{
+        font-size: var(--size-5);
+        margin-block: .25rem;
+    }
+    .port-submit{
+        display: flex;
+        justify-self: center !important;
+    }
+}
+
